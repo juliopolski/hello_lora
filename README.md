@@ -1,10 +1,3 @@
-###### UTFPR - Universidade Tecnológica Federal do Paraná
-###### Engenharia de Computação
-###### Oficina de Integração - Prof. Gustavo Weber Denardin
-###### Julio Opolski Netto
-
----
-
 # Hello Lora Example
 
 Starts a FreeRTOS task to print and send/receive "Hello Lora" using LoraWan Protocol.

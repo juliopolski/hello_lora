@@ -18,6 +18,8 @@ hello_lora_main.o: \
  /Users/juliopolski/esp/esp-idf/components/newlib/include/machine/types.h \
  /Users/juliopolski/esp/esp-idf/components/newlib/include/sys/sched.h \
  /Users/juliopolski/esp/esp-idf/components/newlib/include/sys/stdio.h \
+ /Users/juliopolski/esp/esp-idf/components/newlib/include/string.h \
+ /Users/juliopolski/esp/esp-idf/components/newlib/include/sys/string.h \
  /Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/juliopolski/esp/esp-idf/components/newlib/include/stdint.h \
  /Users/juliopolski/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -80,7 +82,26 @@ hello_lora_main.o: \
  /Users/juliopolski/esp/esp-idf/components/newlib/include/limits.h \
  /Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/list.h \
  /Users/juliopolski/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /Users/juliopolski/esp/hello_lora/components/lora/include/lora.h
+ /Users/juliopolski/esp/hello_lora/components/lora/include/lora.h \
+ /Users/juliopolski/esp/esp-idf/components/driver/include/driver/spi_master.h \
+ /Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+ /Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /Users/juliopolski/esp/esp-idf/components/driver/include/driver/spi_common.h \
+ /Users/juliopolski/esp/esp-idf/components/esp32/include/rom/lldesc.h \
+ /Users/juliopolski/esp/esp-idf/components/esp32/include/rom/queue.h \
+ /Users/juliopolski/esp/esp-idf/components/soc/include/soc/spi_periph.h \
+ /Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
+ /Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
+ /Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
+ /Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
+ /Users/juliopolski/esp/esp-idf/components/log/include/esp_log.h \
+ /Users/juliopolski/esp/esp-idf/components/log/include/esp_log_internal.h \
+ /Users/juliopolski/esp/hello_lora/main/u8g2_esp32_hal.h \
+ /Users/juliopolski/esp/hello_lora/components/u8g2/csrc/u8g2.h \
+ /Users/juliopolski/esp/hello_lora/components/u8g2/csrc/u8x8.h \
+ /Users/juliopolski/esp/esp-idf/components/driver/include/driver/i2c.h \
+ /Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /Users/juliopolski/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h
 
 /Users/juliopolski/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -117,6 +138,10 @@ hello_lora_main.o: \
 /Users/juliopolski/esp/esp-idf/components/newlib/include/sys/sched.h:
 
 /Users/juliopolski/esp/esp-idf/components/newlib/include/sys/stdio.h:
+
+/Users/juliopolski/esp/esp-idf/components/newlib/include/string.h:
+
+/Users/juliopolski/esp/esp-idf/components/newlib/include/sys/string.h:
 
 /Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -243,4 +268,42 @@ hello_lora_main.o: \
 /Users/juliopolski/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 /Users/juliopolski/esp/hello_lora/components/lora/include/lora.h:
+
+/Users/juliopolski/esp/esp-idf/components/driver/include/driver/spi_master.h:
+
+/Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/semphr.h:
+
+/Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+/Users/juliopolski/esp/esp-idf/components/driver/include/driver/spi_common.h:
+
+/Users/juliopolski/esp/esp-idf/components/esp32/include/rom/lldesc.h:
+
+/Users/juliopolski/esp/esp-idf/components/esp32/include/rom/queue.h:
+
+/Users/juliopolski/esp/esp-idf/components/soc/include/soc/spi_periph.h:
+
+/Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
+
+/Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h:
+
+/Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
+
+/Users/juliopolski/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
+
+/Users/juliopolski/esp/esp-idf/components/log/include/esp_log.h:
+
+/Users/juliopolski/esp/esp-idf/components/log/include/esp_log_internal.h:
+
+/Users/juliopolski/esp/hello_lora/main/u8g2_esp32_hal.h:
+
+/Users/juliopolski/esp/hello_lora/components/u8g2/csrc/u8g2.h:
+
+/Users/juliopolski/esp/hello_lora/components/u8g2/csrc/u8x8.h:
+
+/Users/juliopolski/esp/esp-idf/components/driver/include/driver/i2c.h:
+
+/Users/juliopolski/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+/Users/juliopolski/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
 /Users/juliopolski/esp/hello_lora/main/./hello_lora_main.c:

@@ -9,7 +9,7 @@
 
 Starts a FreeRTOS task to print and send/receive "Hello Lora" using LoraWan Protocol.
 
-> You'll need to change the GPIO's based on your board. My board is Heltec ESP32 Lora, So, I used (You can easily change on *make menuconfig* command):
+> You'll need to change the GPIO's based on your board. My board is Heltec ESP32 Lora, So, I used (You can easily change with *make menuconfig* command):
 
 	#
 	# LoRa Configuration
